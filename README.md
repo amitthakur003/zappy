@@ -103,3 +103,5 @@ LinkedIn: https://www.linkedin.com/in/reachthakuramit 🔗
 Instagram: https://www.instagram.com/amithakur_003/ 📸
 
 Made with love by Amit Thakur💗
+
+![Database Design](https://github.com/user-attachments/assets/1a9105d1-016c-48d5-9322-f455e706f5e3)
