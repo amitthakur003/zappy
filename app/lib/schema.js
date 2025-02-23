@@ -18,7 +18,7 @@ export const onboardingSchema = z.object({
         .max(50, "Experience cannot exceed 50 years")
       
   )
-  console.log("happy me and you")
+  
 
 
 
