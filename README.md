@@ -12,6 +12,22 @@ Resume Builder: Create professional resumes tailored to your career goals.
 AI Interview Preparation: Practice mock interviews with AI-generated quizzes, powered by Gemini 2.0 Flash, and track your performance over time.
 Secure User Authentication: Inngest is used to manage and secure user authentication processes.
 
+🗄️ Database Design
+Zappy AI's database is structured to provide seamless interaction between users and career-related resources. The User Table serves as the central entity, connecting various modules for a personalized experience.
+
+Key Relationships:
+🔹 User → Industry Insights (Right Side)
+
+Stores industry-specific trends, salary insights, and career growth opportunities.
+Helps users make informed career decisions based on real-time data.
+🔹 User → Resume, Cover Letter, Assessment (Left Side)
+
+Allows users to create and manage resumes tailored to their preferred job roles.
+Generates AI-powered cover letters based on user experience and job descriptions.
+Includes assessments to evaluate skills and suggest improvements for better job prospects.
+
+![Database Design](https://github.com/user-attachments/assets/8c547eaa-312e-4cd8-8d44-e7e0495e6318)
+
 🛠️ Tech Stack
 Frontend:
 . Next.js: For server-side rendering and a seamless user experience 🖥️.
@@ -41,6 +57,7 @@ The AI Interview Prep feature is powered by Google's Gemini 2.0 Flash ✨. This 
 Dynamic Interview Questions: Gemini 2.0 Flash generates relevant and challenging interview questions tailored to the user's career field 🎯.
 Real-time Feedback: Users receive instant feedback on their responses, highlighting areas for improvement 📢.
 Personalized Learning: The AI adapts to the user's performance, providing increasingly challenging questions as they progress 🧠.
+
 
 Getting Started
 Prerequisites
@@ -103,5 +120,3 @@ LinkedIn: https://www.linkedin.com/in/reachthakuramit 🔗
 Instagram: https://www.instagram.com/amithakur_003/ 📸
 
 Made with love by Amit Thakur💗
-
-![Database Design](https://github.com/user-attachments/assets/1a9105d1-016c-48d5-9322-f455e706f5e3)
