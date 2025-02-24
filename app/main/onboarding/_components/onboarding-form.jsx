@@ -48,5 +48,6 @@ const OnboardingForm = ({industries}) => {
   </div> )
 };
 
-export default OnboardingForm;
+export default OnboardingForm; 
+console.log("Hello")
 
