@@ -49,5 +49,5 @@ const OnboardingForm = ({industries}) => {
 };
 
 export default OnboardingForm; 
-console.log("Hello ji")
+console.log("Hello ji kese")
 
