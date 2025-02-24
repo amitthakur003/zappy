@@ -4,7 +4,7 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import { Button } from "./ui/button";
 import { LayoutDashboard, ChevronDown, StarsIcon, FileText, GraduationCap, PenBox } from "lucide-react";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "./ui/dropdown-menu";
-import { checkUser } from "@/lib/checkUser";
+import { checkUser } from "../lib/checkUser";
 
 export default async function Header() { 
   await checkUser();

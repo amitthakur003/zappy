@@ -1,27 +1,20 @@
-import HeroSection from "@/components/hero";
-import { Button } from "@/components/ui/button";
-import { features } from "@/data/features";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
-import { howItWorks } from "@/data/howItWorks";
-import { testimonial } from './../data/testimonial';
-import Image from "next/image";
-import { faqs } from "@/data/faqs";
+import React from "react";
+import Link from "next/link";
+import { Button } from "../components/ui/button";
+import { Card, CardContent } from "../components/ui/card";
+import { ArrowRight } from "lucide-react";
+import HeroSection from "../components/hero";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
-import Link from "next/link";
-import { ArrowRight } from "@/node_modules/lucide-react";
-import { ThemeProvider } from './../components/ui/theme-provider';
+} from "../components/ui/accordion";
+import Image from "next/image";
+import { features } from "../data/features";
+import { testimonial } from "../data/testimonial";
+import { faqs } from "../data/faqs";
+import { howItWorks } from "../data/howItWorks";
 
 
 
