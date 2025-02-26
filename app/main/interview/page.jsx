@@ -6,6 +6,4 @@ const InterviewPage = () => {
   )
 }
 
-export default InterviewPage
-
-console.log("Hello ji bhbh")
+export default InterviewPage;
