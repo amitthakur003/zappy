@@ -30,7 +30,7 @@ import useFetch from "@/hooks/use-fetch";
 import { onboardingSchema } from "@/app/lib/schema";
 import { updateUser } from "@/actions/user";
 import { log } from './../../../../node_modules/@types/node/util.d';
-console.log("Hello jii")
+
 
 const OnboardingForm = ({ industries }) => {
   const router = useRouter();
