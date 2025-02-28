@@ -58,7 +58,7 @@ export async function updateUser(data) {
         timeout: 10000, // default: 5000
       }
     );
-console.log("hero");
+console.log("hero ki");
     revalidatePath("/");
     return result.user;
   } catch (error) {
