@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
-    "allowSyntheticDefaultImports": true,
     "paths": {
       "@/*": ["./*"]
     }
