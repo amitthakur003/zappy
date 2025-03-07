@@ -21,7 +21,7 @@ const HeroSection = () => {
         imageElement.classList.remove("scrolled");
       }
     };
-    console.log("gii kese")
+    console.log("gii kese ho")
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
