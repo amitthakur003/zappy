@@ -29,9 +29,9 @@ export default async function Header() {
           <Image
             src={"/Zappy.png"}
             alt="/zappylogoedit-Photoroom.png"
-            width={200}
+            width={250}
             height={60}
-            className="h-16 py-1 w-auto object-contain"
+            className="h-16 py-1 w-auto object-contain ml-[-30px] scale-125"
           />
         </Link>
 
