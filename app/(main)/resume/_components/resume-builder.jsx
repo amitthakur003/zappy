@@ -148,44 +148,60 @@ export default function ResumeBuilder({ initialContent }) {
   };
 
   return (
-    <div data-color-mode="light" className="space-y-4">
-      <div className="flex flex-col md:flex-row justify-between items-center gap-2">
-        <h1 className="font-bold gradient-title text-5xl md:text-6xl">
-          Resume Builder
-        </h1>
-        <div className="space-x-2">
-          <Button
-            variant="destructive"
-            onClick={handleSubmit(onSubmit)}
-            disabled={isSaving}
-          >
-            {isSaving ? (
-              <>
-                <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                Saving...
-              </>
-            ) : (
-              <>
-                <Save className="h-4 w-4" />
-                Save
-              </>
-            )}
-          </Button>
-          <Button onClick={generatePDF} disabled={isGenerating}>
-            {isGenerating ? (
-              <>
-                <Loader2 className="h-4 w-4 animate-spin" />
-                Generating PDF...
-              </>
-            ) : (
-              <>
-                <Download className="h-4 w-4" />
-                Download PDF
-              </>
-            )}
-          </Button>
-        </div>
-      </div>
+    <div data-color-mode="light" className="space-y-6 container mx-auto px-4">
+  <div className="flex flex-wrap md:flex-nowrap justify-between items-center gap-4">
+    {/* Text Section */}
+    <div className="w-full md:w-2/3 text-center md:text-left">
+      <h1 className="font-bold gradient-title text-4xl sm:text-5xl md:text-6xl leading-tight">
+        Resume Builder
+      </h1>
+      <p className="text-base sm:text-lg text-gray-600 mt-2">
+        Craft your perfect resume in minutes—AI does the heavy lifting for you!
+      </p>
+    </div>
+
+    {/* Buttons Section */}
+    <div className="flex flex-wrap justify-center md:justify-start gap-3 w-full md:w-auto">
+      <Button
+        variant="destructive"
+        onClick={handleSubmit(onSubmit)}
+        disabled={isSaving}
+        className="flex items-center gap-2 px-4 py-2 text-sm sm:text-base"
+      >
+        {isSaving ? (
+          <>
+            <Loader2 className="h-4 w-4 animate-spin" />
+            Saving...
+          </>
+        ) : (
+          <>
+            <Save className="h-4 w-4" />
+            Save
+          </>
+        )}
+      </Button>
+
+      <Button
+        onClick={generatePDF}
+        disabled={isGenerating}
+        className="flex items-center gap-2 px-4 py-2 text-sm sm:text-base"
+      >
+        {isGenerating ? (
+          <>
+            <Loader2 className="h-4 w-4 animate-spin" />
+            Generating PDF...
+          </>
+        ) : (
+          <>
+            <Download className="h-4 w-4" />
+            Download PDF
+          </>
+        )}
+      </Button>
+    </div>
+  </div>
+
+
 
       <Tabs value={activeTab} onValueChange={setActiveTab}>
         <TabsList>
