@@ -37,7 +37,7 @@ const HeroSection = () => {
             Believe in Zappy
           </h1>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
-          Smart carrer insights, real-time fastresume builder, and AI-driven interview prep—get hired faster!
+          Smart carrer insights, real-time fast resume builder, and AI-driven interview prep—get hired faster!
           </p>
         </div>
         <div className="flex justify-center space-x-4">
