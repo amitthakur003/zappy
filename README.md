@@ -40,7 +40,7 @@ Prisma: For type-safe database access.
 Inngest: For reliable background job processing, event-driven tasks, and secure user authentication.
 
 Database:
-Neon DB (PostgreSQL): A fully managed serverless PostgreSQL database known for its speed and scalability.
+Neon DB (PostgreSQL): A fully managed serverless PostgreSQL database known for its fast speed and scalability.
 
 AI Integration:
 Google Gemini 2.0 Flash: Used for generating dynamic interview questions and providing real-time feedback in the AI Interview Prep feature.
