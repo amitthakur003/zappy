@@ -2,6 +2,8 @@ Zappy - AI Career Coach 🤖
 
 Zappy is a comprehensive, full-stack AI Career Coach designed to empower you in your professional journey. Leveraging cutting-edge technologies like Next.js, Neon DB (PostgreSQL), Tailwind CSS, Prisma, Inngest, and Shadcn UI, Zappy provides an interactive dashboard to track career growth, analyze industry trends, and enhance your skills.
 
+Website Link: https://zappy-three.vercel.app/
+
 Key Features:
 
 Industry Trend Analysis: Visualize the booming fields and current salary trends in your area through interactive graphs.
@@ -92,7 +94,7 @@ Create a .env file and configure the database, authentication, and AI API keys:
 [ . npm run dev  ]  # or yarn dev
 
 
-Your application will be available at [http://localhost:3000](https://zappy-three.vercel.app/) 🌐
+Your application will be available at localhost:xxxx 🌐
 
 🧑‍💻 How to Use
 Sign Up / Log In: Securely authenticate using Inngest 🔐.
