@@ -92,7 +92,7 @@ Create a .env file and configure the database, authentication, and AI API keys:
 [ . npm run dev  ]  # or yarn dev
 
 
-Your application will be available at http://localhost:3000 🌐
+Your application will be available at [http://localhost:3000](https://zappy-three.vercel.app/) 🌐
 
 🧑‍💻 How to Use
 Sign Up / Log In: Securely authenticate using Inngest 🔐.
